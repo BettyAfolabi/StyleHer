@@ -597,18 +597,22 @@ video {
   width: max-content;
 }
 
+.w-screen{
+  width: 100vw;
+}
+
 .-translate-y-7{
   --tw-translate-y: -1.75rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-skew-y-3{
-  --tw-skew-y: -3deg;
+.-skew-x-6{
+  --tw-skew-x: -6deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-skew-x-6{
-  --tw-skew-x: -6deg;
+.-skew-y-3{
+  --tw-skew-y: -3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -658,23 +662,14 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-2{
-  padding: 0.5rem;
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .py-1{
@@ -706,19 +701,18 @@ video {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.font-serif{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
+.text-7xl{
+  font-size: 4.5rem;
   line-height: 1;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-sm{
@@ -731,33 +725,30 @@ video {
   line-height: 1.75rem;
 }
 
-.text-7xl{
-  font-size: 4.5rem;
+.text-6xl{
+  font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
   font-weight: 700;
 }
 
-.font-normal{
-  font-weight: 400;
-}
-
-.font-semibold{
-  font-weight: 600;
-}
-
-.font-thin{
-  font-weight: 100;
+.font-extrabold{
+  font-weight: 800;
 }
 
 .font-medium{
   font-weight: 500;
 }
 
-.font-extrabold{
-  font-weight: 800;
+.font-normal{
+  font-weight: 400;
 }
 
 .text-black{

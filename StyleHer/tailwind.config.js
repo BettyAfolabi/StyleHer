@@ -6,7 +6,6 @@ module.exports = {
       colors: {
         salmon: "#f77164",
         magenta: "#d0003a",
-        transparent: "rgba(255, 0, 0, 0.3)",
       },
       fontFamily: {
         sans: ["Helvetica", "Arial", "sans-serif"],
