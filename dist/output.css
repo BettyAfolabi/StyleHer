@@ -916,6 +916,10 @@ video {
     right: 0px;
   }
 
+  .sm\:mb-14{
+    margin-bottom: 3.5rem;
+  }
+
   .sm\:block{
     display: block;
   }
