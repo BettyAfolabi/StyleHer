@@ -760,6 +760,14 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-60{
+  --tw-bg-opacity: 0.6;
+}
+
 .bg-pic{
   background-image: url('../styler.jpeg');
 }
