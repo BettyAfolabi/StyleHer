@@ -12,7 +12,7 @@ module.exports = {
         Rajdhani: ["Rajdhani", "sans-serif"],
       },
       backgroundImage: {
-        pic: "url('../style.jpeg')",
+        pic: "url('../styler.jpeg')",
       },
     },
   },
