@@ -17,6 +17,8 @@ function showNextDiv() {
 
   tips[currentTip].style.display = "block";
   tipCount[currentTip].style.display = "block";
+  tips[currentTip].style.transition = "all 3s ease-in-out";
+  tips[currentTip].style.transitionDelay = "2s";
 }
 
 let change = document.getElementById("tap");
